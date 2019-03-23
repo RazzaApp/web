@@ -93,10 +93,6 @@
 	.coming-soon-conatiner{
 		margin-top: 100px;
 	}
-	.email-input-area .submit-btn{
-		width: 90px;
-
-	}
 }
 
 @media only screen and (max-width:1040px) {
