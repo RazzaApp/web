@@ -33,7 +33,6 @@ $(document).ready(function(){
             // Log a message to the console
              document.getElementById("email").value = "";
              $("#email-input-area").addClass("hide");
-             $("#sign-up-text").addClass("hide");
              $("#success-message").removeClass("hide");
         });
 
