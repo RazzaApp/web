@@ -3,7 +3,6 @@ var request;
 $(document).ready(function(){
 // Bind to the submit event of our form
     $("#google-form").submit(function(event){
-    console.log("here");
         // Abort any pending request
         if (request) {
             request.abort();
@@ -36,8 +35,6 @@ $(document).ready(function(){
              $("#email-input-area").addClass("hide");
              $("#sign-up-text").addClass("hide");
              $("#success-message").removeClass("hide");
-             console.log("data saved");
- 
         });
 
         // Callback handler that will be called on failure
